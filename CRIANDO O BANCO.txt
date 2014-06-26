@@ -1,0 +1,10 @@
+CREATE TABLE IF NOT EXISTS `noticias` (
+`n_id` int( 11 ) NOT NULL AUTO_INCREMENT ,
+`n_data` date NOT NULL ,
+`n_titulo` text,
+`n_fonte` text,    
+`n_resumo` text,    
+`n_texto` text ,
+`n_img` varchar( 255 ),
+PRIMARY KEY ( `n_id` )
+);
